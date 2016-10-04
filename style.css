@@ -20,6 +20,11 @@ p {}
 
 .test { border: 1px solid black;}
 
+.npr {
+    padding: 0;
+    
+}
+
 /* Layout */
 .container {
    width: 1230px;
@@ -71,3 +76,64 @@ p {}
 }
 
 .description-p2 {padding-top: 100px;}
+
+.featured-content {
+    padding-bottom: 140px;
+    
+    color: #fff;
+    
+    
+}
+
+.featured-content-box {
+    padding: 30px 60px 40px 40px;
+    height: 280px;
+}
+
+.featured-content-title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.featured-content-line {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.featured-content-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.featured-content-box-b1 {
+    background-color: #f5989d;
+}
+
+.featured-content-box-b2 {
+    background-color: #615f7d;
+}
+
+.featured-content-box-b3 {
+    background-image: url(img/our-clients.jpg);
+    background-position: right;
+    -moz-background-size: 120%;
+    -o-background-size: 120%;
+    -webkit-background-size: 120%;
+    background-size: 120%;
+}
+
+.featured-content-box-b4 {
+    background-image: url(img/sign-up.jpg);
+    background-position: 0 -160px;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.featured-content-box-b5 {
+    background-color: #82ca9c;
+}
